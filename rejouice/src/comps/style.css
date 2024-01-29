@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    overflow-x: hidden;
+}
+.cursor{
+    width: 7vw;
+    height: 7vw;
+    background-color: orangered;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 10;
+}
+.page1{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(0, 0, 0, 0.684);
+}
+.page1 h1{
+    font-size: 20vw;
+    color: white;
+    font-weight: 500;
+}
+.main video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 4vw;
+    font-family: "Montserrat", sans-serif;
+}
+nav h3{
+    color: white;
+    font-size: 2vw;
+    font-weight: 250;
+}
